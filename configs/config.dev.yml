@@ -1,0 +1,12 @@
+merchant:
+  enable: true
+
+database:
+  type: mongodb
+  mongo_db:
+    addresses:
+      - localhost:27017
+    username:
+    password:
+    database: test
+    timeout: "30s"
